@@ -1,0 +1,139 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar {
+    font-weight: 600;
+    .navbar-brand h2 {
+        font-weight: 600;
+    }
+    .nav-item {
+        font-size: 1.1rem;
+        color: white;
+    }
+    .nav-link:hover {
+        border-bottom: 1px solid black;
+    }
+}
+
+#showcase {
+    background: url(../images/hotel1.jpg) bottom center / cover repeat-y;
+    min-height: 950px;
+    position: relative;
+    #header {
+        z-index: 2;
+    }
+    #overlay {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    h1 {
+        font-family: 'Nunito', sans-serif;
+        line-height: 1;
+    }
+    #book {
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
+    form {
+        background: black;
+        margin-bottom: 30px;
+    }
+}
+
+#furtherinfo {
+    background: url(../images/hotel4.jpg) bottom center / cover repeat-y;
+    min-height: 950px;
+    position: relative;
+    #header {
+        z-index: 2;
+    }
+    #overlay {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    h1 {
+        font-family: "Questrial", sans-serif;
+        line-height: 1;
+    }
+    #book {
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
+}
+
+#history {
+    background: url(../images/pool1.jpg) bottom center / cover repeat-y;
+    min-height: 950px;
+    position: relative;
+    #header {
+        z-index: 2;
+    }
+    #overlay {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    h1 {
+        font-family: "Questrial", sans-serif;
+        line-height: 1;
+    }
+    #content {
+        z-index: 2;
+        font-size: 1.5rem;
+        border-radius: 2rem;
+        color: white;
+    }
+}
+
+#about {
+    background: url(../images/hotel3.jpg) bottom center / cover repeat-y;
+    min-height: 950px;
+    position: relative;
+    #header {
+        z-index: 2;
+    }
+    #overlay {
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    h1 {
+        font-family: "Questrial", sans-serif;
+        line-height: 1;
+    }
+    #content {
+        z-index: 2;
+        font-size: 1.5rem;
+        border-radius: 2rem;
+        color: white;
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    height: 100%;
+}
